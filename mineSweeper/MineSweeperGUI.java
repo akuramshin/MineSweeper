@@ -30,10 +30,10 @@ public class MineSweeperGUI implements Runnable{
     MineSweeper dataGrid;
     long startTime;
     
-    private ImageIcon neutral = new ImageIcon("C:\\Users\\artur_000\\workspace\\Advanced Concept\\src\\School\\images\\Neutral.jpg");
-    private ImageIcon empty = new ImageIcon("C:\\Users\\artur_000\\workspace\\Advanced Concept\\src\\School\\images\\Empty.jpg");
-    private ImageIcon mine = new ImageIcon("C:\\Users\\artur_000\\workspace\\Advanced Concept\\src\\School\\images\\Mine.jpg");
-    private ImageIcon flag = new ImageIcon("C:\\Users\\artur_000\\workspace\\Advanced Concept\\src\\School\\images\\Flag.jpg");
+    private ImageIcon neutral = new ImageIcon("src\\images\\Neutral.jpg");
+    private ImageIcon empty = new ImageIcon("src\\images\\Empty.jpg");
+    private ImageIcon mine = new ImageIcon("src\\images\\Mine.jpg");
+    private ImageIcon flag = new ImageIcon("src\\images\\Flag.jpg");
 
 
     
@@ -190,7 +190,7 @@ public class MineSweeperGUI implements Runnable{
                 }
             	if (tileSquares[ii][jj].type == TileType.NUM){
                 	tileSquares[ii][jj].setIcon(
-                			new ImageIcon("C:\\Users\\artur_000\\workspace\\Advanced Concept\\src\\School\\images\\number-" + dataGrid.field[ii][jj] + ".jpg"));
+                			new ImageIcon("src\\images\\number-" + dataGrid.field[ii][jj] + ".jpg"));
                 	continue;
                 }
             	tileSquares[ii][jj].setIcon(neutral);
