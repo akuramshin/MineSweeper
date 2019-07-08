@@ -1,5 +1,5 @@
 # MineSweeper
-Simple MineSweeper project to showcase the use of Objetc Oriented Programing and recursion.
+Simple MineSweeper project to showcase the use of Objetc Oriented Programing, recursion and the Java UI.
 
 This was a project to recreate the classic game "MineSweeper" from scratch (except for the images) in Java with the use of OOP and recursion.
 
